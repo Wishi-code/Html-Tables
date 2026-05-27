@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        body{
+            background-color: burlywood;
+            margin:40px 60px;
+            color: green;
+            
+        }
+    </style>
+</head>
+<body>
+    <marquee><h2 > Welcome to our registration form.</h2></marquee>
+    <h3>
+     Registrarion Form</h3>
+    <form>
+        <label for ="fullname">Full Name:</label>
+        <input  type="text" id ="fullname" name="full name" required/> <br><br>
+
+        <label for ="email">Email:</label>
+        <input type ="text" id ="email" name ="email" required/><br><br>
+        <label for ="Password"> Password:</label>
+        <input type="password" id=" password" name="password"required/><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required/><br><br>
+
+        
+        <label for="DOB">Date of birth:</label>
+        <input type="date" id="Dob" name="Dob" required/><br><br>
+
+        
+        <label for="phone number">Phone number</label>
+        <input type="tel" id="phone number" name="phone number" required placeholder=" Enter phone number" /><br><br>
+        <!--Rdio buttons-->
+        
+        <p>Gender:</p>
+        <label for="male" >Male</label>
+        <input type=" radio"id="male" name="gender" value="male"/><br><br>
+
+         <label for="female" >Female</label>
+        <input type=" radio"id="female" name="gender" value="female"/><br><br>
+
+        <!--Checkboxes-->
+        <p>Hobbies:</p>
+        
+        <input type="checkbox" id="reading" name="hobby" value="Reading" />
+        <label for="reading">Reading</label><br />
+
+        <input type="checkbox" id="music" name="hobby" value="Music" />
+        <label for="music">Music</label><br />
+
+        <input type="checkbox" id="sports" name="hobby" value="Sports" />
+        <label for="sports">Sports</label><br /><br />
+
+         <!-- Dropdown Menu -->
+        <label for="country">Select Country:</label><br />
+        <select id="country" name="country">
+            <option value="">--Choose Country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+        </select><br /><br />
+
+        <!--Text area-->
+        <label for "message"> Additional information</label>
+        <textarea id="message" name="message" rows="5" cols="50" placeholder =" Type your message"></textarea><br>
+
+                <input type="submit" value="Submit" /><br>
+                <input type="reset" value="Reset" />
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

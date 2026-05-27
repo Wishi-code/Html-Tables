@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>Tables</h4>
+    <!--question 1-->
+    <h3>Question 1</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John </td>
+            <td>25</td>
+            <td>Nairobi</td>
+        </tr>
+    </table>
+    <!--question 2-->
+    <h3>Question 2</h3>
+    <table>
+        <tr>
+            <th>Student</th>
+            <th>Subject</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>Alice </td>
+            <td>Math</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Alice </td>
+            <td>English</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>Math</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>English</td>
+            <td>88</td>
+        </tr>
+    </table>
+    <br>
+    
+    <!--question 3-->
+    <h3>Question 3</h3>
+    <table> 
+        <th></th>
+        <th>Morning</th>
+        <th>Afternoon</th>
+        <th>Evening</th>
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>History</td>
+            <td>Music</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Sports</td>
+        </tr>
+    </table>
+    <!--question 4-->
+    <h3>Question 4</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Information</th>
+        </tr>
+        <tr>
+            <td>John </td>
+            <td>Phone: 0712345678</td>
+
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>Phone: 0712345679</td>
+        </tr>
+    </table>
+    <br>
+    <!--question 5-->
+    <h3>Question 5</h3>
+       <table>
+    <tr>
+        <th>Department</th>
+        <th>Employee Name</th>
+    </tr>
+
+    <tr>
+        <td rowspan="3">IT</td>
+        <td>Alice</td>
+    </tr>
+
+    <tr>
+        <td>Bob</td>
+    </tr>
+
+    <tr>
+        <td>Charlie</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">HR</td>
+        <td>David</td>
+    </tr>
+
+    <tr>
+        <td>Eva</td>
+    </tr>
+
+</table>
+<!--question 6-->
+<h3>Question 6</h3>
+<table>
+     <!-- Row 1 -->
+     <tr>
+         <th></th>
+         <th>2023</th>
+         <th>2024</th>
+     </tr>
+     <!-- Row 2 -->
+     <tr>
+         <td>Q1</td>
+         <td>100</td>
+         <td>150</td>
+     </tr>
+     <!-- Row 3 -->
+     <tr>
+         <td>Q2</td>
+         <td>120</td>
+         <td>160</td>
+     </tr>
+     <!-- Row 4: H1 spans 2 rows vertically -->
+     <tr>
+         <td>H1</td>
+         <td rowspan="2">(spans Q1+Q2)</td>
+         <td rowspan="2">(spans Q1+Q2)</td>
+     </tr>
+     <!-- Row 5: merged with above via rowspan -->
+     <tr>
+         <td>Q3</td>
+         <td>110</td>
+         <td>170</td>
+     </tr>
+     <!-- Row 6 -->
+     <tr>
+         <td>Q4</td>
+         <td>130</td>
+         <td>180</td>
+     </tr>
+     <!-- Row 7: H2 spans 2 rows vertically -->
+     <tr>
+         <td>H2</td>
+         <td rowspan="2">(spans Q3+Q4)</td>
+         <td rowspan="2">(spans Q3+Q4)</td>
+     </tr>
+ </table>
+
+    
+<br>
+<br>
+<!--question 7-->
+<h3>Question 7</h3>
+           <table>
+         <tr>
+             <th>Student</th>
+             <th>Grade</th>
+             <th>Subjects & Scores</th>
+         </tr>
+         <tr>
+             <td>Alice</td>
+             <td>A</td>
+             <td>
+                 <!-- INNER TABLE inside third cell -->
+                 <table>
+                     <tr>
+                         <td>Math:90</td>
+                         <td>English:85</td>
+                     </tr>
+                 </table>
+             </td>
+         </tr>
+         <tr>
+             <td>Bob</td>
+             <td>B+</td>
+             <td>
+                 <!-- INNER TABLE -->
+                 <table>
+                     <tr>
+                         <td>Math:78</td>
+                         <td>English:82</td>
+                     </tr>
+                 </table>
+             </td>
+         </tr>
+     </table>
+<br>
+<br>
+<!--question 8-->
+<h3>Question 8</h3>
+<table>
+         <tr>
+             <th></th> 
+             <th>Product A</th>
+             <th>Product B</th>
+             <th>Product C</th>
+         </tr>
+         <tr>
+             <th>Q1</th>
+             <td>1000</td>
+             <td>800</td>
+             <td>600</td>
+         </tr>
+         <tr>
+             <th>Q2</th>
+             <td>1200</td>
+             <td>900</td>
+             <td>700</td>
+         </tr>
+         <tr>
+             <th>Q3</th>
+             <td>1100</td>
+             <td>850</td>
+             <td>650</td>
+         </tr>
+         <tr>
+             <th>Q4</th>
+             <td>1300</td>
+             <td>950</td>
+             <td>750</td>
+         
+</table>
+<br>
+<br>
+<br>
+<!--question 9-->
+<h3>Question 9</h3>
+<table>
+         <tr>
+             <th>Name</th>
+             <th>Department</th>
+             <th>Salary</th>
+         </tr>
+         <tr>
+             <td>John</td>
+             <td>IT</td>
+             <td >75,000</td>
+         </tr>
+         <tr>
+             <td>Mary</td>
+             <td>HR</td>
+             <td>68,000</td>
+         </tr>
+         <tr>
+             <td>Peter</td>
+             <td>Finance</td>
+             <td>82,000</td>
+         </tr>
+         <tr>
+             <td>Jane</td>
+             <td>Marketing</td>
+             <td>70,000</td>
+            
+        </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+
+  <!--question 10-->
+  <h3>Question 10</h3>
+    <table>
+        <caption>Weekly Class Timetable</caption>
+     <!-- Header row: Days -->
+     <tr>
+         <th>Time</th>
+         <th>Monday</th>
+         <th>Tuesday</th>
+         <th>Wednesday</th>
+         <th>Thursday</th>
+         <th>Friday</th>
+     </tr>
+     <!-- 8:00 - 9:00 -->
+     <tr>
+         <th>8:00 - 9:00</th>
+         <td>Math</td>
+         <td>English</td>
+         <td>Science</td>
+         <td>History</td>
+         <td>Art</td>
+     </tr>
+     <!-- 9:00 - 10:00 -->
+     <tr>
+         <th>9:00 - 10:00</th>
+         <td>English</td>
+         <td>Math</td>
+         
+         <td rowspan="2">Lab Session</td>
+         <td>Math</td>
+         <td>Science</td>
+     </tr>
+     <!-- 10:00 - 11:00 -->
+     <tr>
+         <th>10:00 - 11:00</th>
+         <td>Science</td>
+         <td>History</td>
+         <!-- no cell here due to rowspan -->
+         <td>English</td>
+         <td>Math</td>
+     </tr>
+     <!-- 11:00 - 12:00 -->
+     <tr>
+         <th>11:00 - 12:00</th>
+         <td>History</td>
+         <td>Science</td>
+         <td>Art</td>
+         <td>PE</td>
+         <td>English</td>
+     </tr>
+     <!-- 12:00 - 13:00 — LUNCH BREAK (COLSPAN=5) -->
+     <tr>
+         <th>12:00 - 13:00</th>
+         <td >LUNCH BREAK</td>
+     </tr>
+     <!-- 13:00 - 14:00 -->
+     <tr>
+         <th>13:00 - 14:00</th>
+         <td>Art</td>
+         <td>PE</td>
+         <td>Math</td>
+         <td>Science</td>
+         <td>History</td>
+     </tr>
+     <!-- 14:00 - 15:00 -->
+     <tr>
+         <th>14:00 - 15:00</th>
+         <td>PE</td>
+         <td>Art</td>
+         <td>English</td>
+         <td>Art</td>
+         <td>PE</td>
+     </tr>
+ </table>
+    </table>
+</body>
+</html>
