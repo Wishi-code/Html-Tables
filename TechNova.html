@@ -4,144 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Technova Solutions</title>
-    <style>
-     
-      body {
-        background-color: white;
-        color: black;
-      }
-     
-      
-      .nav {
-        background-color: white;
-        color: black;
-        padding: 10px;
-      }
-      .hero {
-       
-        background-position: center;
-        height: 400px;
-        text-align: left;
-         display: flex;
-         background-image: url("first image2.jpg");
-      }
-      
-
-      
-      .learn {
-        background-color: blue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-      }
-      .get-in-touch {
-        background-color: blue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-      }
-      .button {
-        display: flex;
-        gap: 10px;
-      }
-      .service-title {
-        text-align: center;
-        margin-top: 50px;
-      }
-      .cards-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-      }
-      .card {
-        text-align: center;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        width: 250px;
-
-      }
-
-      .about {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 50px;
-        padding: 20px;
-        text-align: left;
-      
-      }
-      .about-us {
-        font-size: 24px;
-        margin-bottom: 20px;
-        font-style: italic;
-        align-items: center;
-      }
-        .about-image {
-        width: 300px;
-        height: 200px;
-         border-radius: 5px;
-         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .myport {
-        text-align: center;
-        background-color: white;
-        color: black;
-        }
-        .portfolio {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        }
-        .port {
-        text-align: center;
-        text-align: center;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        width: 250px;
-        }
-        .port-image {
-             width: 120px;
-            height: 120px;
-        }
-        .testimonials {
-        text-align: center;
-      }
-
-      .contact {
-        text-align: center;
-        background-color: white;
-        color: black;
-        padding: 20px;
-      }
-      .form {
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-        margin-top: 20px;
-      }
-      .map{
-        width: 100%;
-      }
-      .map iframe{
-        width: 90%;
-        height: 150px;
-        border: none;
-      }
-        .footer {
-          text-align: center;
-          padding: 20px;
-          background-color: white;
-          color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="body">
@@ -155,13 +18,18 @@
       </nav>
     </div>
     <div class="hero">
-      <div>
-        <h3>IT Solutions for</h3>
-        <h3>Your Business</h3>
+      <div class="hero-welcome">
+        <div class="welcome">
+          
+        <h2>IT Solutions for</h2>
+        <h2>Your Business</h2>
+        </div>
         <br />
+        <div class= "p-welcome">
         <p>Since our establishment, we have been delivering</p>
         <p>quality and sustainable software solutions</p>
         <p>for businesses of all sizes.</p>
+        </div>
         <br />
         <div class="button">
           <div>
@@ -171,6 +39,10 @@
             <button class="get-in-touch">Get in Touch</button>
           </div>
         </div>
+      </div>
+      <div class= "hero-image">
+       <img src="hero image.jpg" alt="TechNova Solutions" style="width: 400px; height: 300px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);" /> -->
+
       </div>
       
     </div>
@@ -183,39 +55,37 @@
         <div class="card">
             <h4>🌐</h4>
             <h4>Web Design and Development</h4>
-            <p>We create stunning and responsive websites
-            that captivate your audience and drive results.</p>
+            <p>We create  responsive websites
+            that  drive results.</p>
         </div>
         <div class="card">
             <h4>📱</h4>
             <h4>Mobile App Development</h4>
-            <p>Our team develops user-friendly mobile applications
-                 that enhance your business's reach and engagement.</p>
+            <p>We develop  mobile applications
+                that enhance your business's reach.</p>
         </div>
         <div class="card">
             <h4>☁️</h4>
             <h4>Cloud Solutions</h4>
-            <p>We offer scalable and secure cloud solutions
-                 to optimize your business operations .</p>
+            <p>We offer scalable and secure cloud solutions.</p>
         </div>
         <div class="card">
             <h4>🔒</h4>
             <h4>Cybersecurity Services</h4>
-            <p>Protect your business from cyber threats with our comprehensive cybersecurity services.</p>
+            <p>Protect your business from cyber threats.</p>
         </div>
         
     </div>
     <div class=" about">
         <div>
         <h3 class=" about-us">About Us</h3>
-        <p>TechNova Solutions is a modern technology consulting firm
-        dedicated to helping businesses succeed in the digital age.</p>
+        <p>TechNova Solutions is a modern technology consulting firm</p><p>dedicated to helping businesses succeed in the digital age.</p>
         </div>
              <div><img class="about-image" src="second image.jpg" alt="TechNova Solutions Team" /></div>
     </div>
     <div class="myport">
         <h3 class="service-title">Our Portfolio</h3>
-        <p>Explore our portfolio to see how we've helped businesses like yours thrive in the digital landscape.</p>
+        <p>Explore our portfolio to see how we've helped businesses thrive.</p>
         <div class="portfolio">
             <div class="port">
                 <img class="port-image" src="ecommerce2.jpg">
@@ -237,23 +107,23 @@
     </div>
     <div class=" testimonials">
         <h3 class="service-title">Testimonials</h3>
-        <p>Hear from our satisfied clients about their experience working with TechNova Solutions.</p>
+        <p>Hear from our satisfied clients about their experience working with us.</p>
         <div class="cards-container">
             <div class="card">
                 <h4>John Doe</h4>
-                <p>"TechNova Solutions transformed our online presence with a stunning website. Highly recommend!"</p>
+                <p class="p-testimonial">"TechNova Solutions transformed our online presence with a stunning website. Highly recommend!"</p>
             </div>
             <div class="card">
                 <h4>Jane Smith</h4>
-                <p>"The mobile app developed by TechNova Solutions has significantly boosted our customer engagement."</p>
+                <p class="p-testimonial">"The mobile app developed by TechNova Solutions has significantly boosted our customer engagement."</p>
             </div>
             <div class="card">
                 <h4>Michael Brown</h4>
-                <p>"TechNova Solutions' cloud migration services have optimized our operations and reduced costs."</p>
+                <p class="p-testimonial">"TechNova Solutions' cloud migration services have optimized our operations and reduced costs."</p>
             </div>
             <div class="card">
                 <h4>Emily Davis</h4>
-                <p>"Thanks to TechNova Solutions' cybersecurity services, we feel secure in the digital landscape."</p>
+                <p class="p-testimonial">"Thanks to TechNova Solutions' cybersecurity services, we feel secure in the digital landscape."</p>
             </div>
         </div>
 

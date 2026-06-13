@@ -1,0 +1,220 @@
+      body {
+        background-color: whitesmoke;
+        color: black;
+        font-size: 14px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .nav{
+        background-color: midnightblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        color: white;
+      }
+      .nav a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      .here-welcome{
+        background-color: transparent;
+        width: 45%;
+      }
+
+     .welcome{
+      background-color:transparent;
+      color:black;
+     }
+     .hero-welcome{
+      background-color:transparent;
+      color:white;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+     }
+     .p-welcome{
+      background-color:transparent;
+      color:black;}
+     
+      .hero {
+       
+        background-position: center;
+        height: 200px;
+        align-items: center;
+      
+       background-color: rgb(194, 194, 209);
+        padding: 50px;
+         display: flex;
+        margin-bottom: 50px;
+        gap: 20px;
+
+        
+      }
+      .hero-image{
+        width: 50%;
+      }
+      .hero-image img{
+        width: 500px;
+        height: 350px;
+        border-radius: 10px;
+
+      }
+      
+
+      
+      .learn {
+        background-color: dodgerblue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      .get-in-touch {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      .button {
+        display: flex;
+        gap: 10px;
+      }
+      .service-title {
+        text-align: center;
+        margin-top: 50px;
+        color:midnightblue;
+      }
+      .cards-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+      }
+      .card {
+        text-align: center;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        background-color: white;
+
+
+
+      }
+      .card h4 {
+        margin-bottom: 10px;
+        color: midnightblue;
+      }
+
+      .about {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        padding: 20px;
+        text-align: left;
+        background-color: white;
+        gap: 40px;
+      
+      }
+      .about-us {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-style: italic;
+        align-items: center;
+        background-color: transparent;
+        color: midnightblue;
+      }
+        .about-image {
+        width: 300px;
+        height: 200px;
+         border-radius: 5px;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .myport {
+        text-align: center;
+        background-color: whitesmoke;
+        color: black;
+        }
+        .portfolio {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        }
+        .port {
+        text-align: center;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        background-color: white;
+        }
+        .port h4 {
+          color: midnightblue;}
+
+        
+        .port-image {
+             width: 120px;
+            height: 120px;
+        }
+        .testimonials {
+        text-align: center;
+        background-color: whitesmoke;
+      }
+
+      .contact {
+        text-align: center;
+        background-color: rgb(102, 173, 244);
+        color: black;
+        padding: 20px;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+        text-decoration: italic;
+        
+      }
+      .p-testimonial {
+        font-style: italic;
+        color: #555;
+      }
+      .map{
+        width: 100%;
+      }
+      .map iframe{
+        width: 90%;
+        height: 150px;
+        border: none;
+      }
+        .footer {
+          text-align: center;
+          padding: 20px;
+          background-color: rgb(102, 173, 244);
+          color: black;
+
+        }
+        form{
+          background-color: white;
+          color: black;
+        }
+        .get-in-touch{
+          background-color: midnightblue;
+          color: white;
+        }
+
+
+
+    
